@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #737491;
+}
+.signin-form{
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    background: #fff;
+    padding: 25px 15px;
+    border-radius: 5px;
+}
+.signin-form .btn:focus,
+.signin-form input:focus{
+    box-shadow: none;
+}
+.signin-form .input-group i{
+    position: absolute;
+    z-index: 9999;
+}
+.signin-bottom a .social-icon{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    color: #737491;
+    font-size: 1.2rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    line-height: 2.5rem;
+    margin: 0 .2rem;
+    transition: .5s;
+}
+.signin-bottom a .social-icon:hover{
+    background: #0b5ed7;
+    border-color: #0b5ed7;
+    color: #fff;
+}
+.signin::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(img/pic-1.png) no-repeat center / cover;
+}
